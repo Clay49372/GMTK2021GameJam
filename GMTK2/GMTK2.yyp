@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"PlayerHitbox","path":"objects/PlayerHitbox/PlayerHitbox.yy",},"order":1,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -10,7 +11,7 @@
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
-  "isDnDProject": true,
+  "isDnDProject": false,
   "isEcma": false,
   "tutorialPath": "",
   "configs": {
@@ -47,7 +48,7 @@
     "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
-  "name": "GMTK",
+  "name": "GMTK2",
   "tags": [],
   "resourceType": "GMProject",
 }
