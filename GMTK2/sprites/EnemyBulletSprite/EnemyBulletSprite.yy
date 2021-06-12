@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 15,
-  "bbox_right": 47,
-  "bbox_top": 16,
-  "bbox_bottom": 52,
+  "bbox_left": 25,
+  "bbox_right": 61,
+  "bbox_top": 21,
+  "bbox_bottom": 43,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a7ba3537-9571-4b4c-b8c7-e461244c8531","path":"sprites/Sprite4/Sprite4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a7ba3537-9571-4b4c-b8c7-e461244c8531","path":"sprites/Sprite4/Sprite4.yy",},"LayerId":{"name":"b28ab65e-8fd9-468c-9ae4-a314d0c1c6e6","path":"sprites/Sprite4/Sprite4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"resourceVersion":"1.0","name":"a7ba3537-9571-4b4c-b8c7-e461244c8531","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f7bc43d2-fb9a-4caa-a77b-16c940c84bf7","path":"sprites/EnemyBulletSprite/EnemyBulletSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f7bc43d2-fb9a-4caa-a77b-16c940c84bf7","path":"sprites/EnemyBulletSprite/EnemyBulletSprite.yy",},"LayerId":{"name":"372279f6-9a58-4eea-86d8-194d574f0ada","path":"sprites/EnemyBulletSprite/EnemyBulletSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"EnemyBulletSprite","path":"sprites/EnemyBulletSprite/EnemyBulletSprite.yy",},"resourceVersion":"1.0","name":"f7bc43d2-fb9a-4caa-a77b-16c940c84bf7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},
+    "spriteId": {"name":"EnemyBulletSprite","path":"sprites/EnemyBulletSprite/EnemyBulletSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b6fbf8c1-ed5c-43ef-81af-12127d386727","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a7ba3537-9571-4b4c-b8c7-e461244c8531","path":"sprites/Sprite4/Sprite4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"86883d42-5a5a-4281-b15b-b8224f1c5443","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f7bc43d2-fb9a-4caa-a77b-16c940c84bf7","path":"sprites/EnemyBulletSprite/EnemyBulletSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},
+    "parent": {"name":"EnemyBulletSprite","path":"sprites/EnemyBulletSprite/EnemyBulletSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite4",
+    "name": "EnemyBulletSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b28ab65e-8fd9-468c-9ae4-a314d0c1c6e6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"372279f6-9a58-4eea-86d8-194d574f0ada","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite4",
+  "name": "EnemyBulletSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }
