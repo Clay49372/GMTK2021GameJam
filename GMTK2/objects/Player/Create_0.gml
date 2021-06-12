@@ -3,8 +3,10 @@
 global.MinMult = 1
 global.MaxMult = 5
 
+global.Health = 3
+CanShoot = 1
 ROF = 20
-Damage = 20
+global.Damage = 1
 Speed = 2
 global.HitBox = 10
 
@@ -16,5 +18,5 @@ global.HitBoxMult = 3
 #macro Smol .25
 #macro Larg .75
 #macro Norm 1
-
-alarm_set(0,10)
+speed = 1
+direction = 0
