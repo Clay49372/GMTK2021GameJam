@@ -1,5 +1,5 @@
-
-
+y=clamp(y, 20, 580)
+x=clamp(x, CameraObj.x-950, CameraObj.x+20)
 // Firing commands
 if(keyboard_check(ord("X")) and CanShoot = 1)
 {
@@ -198,7 +198,7 @@ if(keyboard_check_released(ord("D")))
 		global.HitBoxMult += Larg
 	}
 }
-if(keyboard_check_released(ord("F")))
+if(keyboard_check_released(ord("R")))
 {
 	if(global.HitBoxMult + Norm <= global.MaxMult and global.ROFMult + Smol <= global.MaxMult and global.SpeedMult + Larg <= global.MaxMult)
 	{
@@ -236,7 +236,7 @@ if(keyboard_check_released(ord("Q")))
 		global.SpeedMult += Smol	
 	}
 }
-if(keyboard_check_released(ord("R")))
+if(keyboard_check_released(ord("F")))
 {
 	if(global.HitBoxMult - Norm >= global.MinMult and global.ROFMult - Smol >= global.MinMult and global.SpeedMult - Larg >= global.MinMult)
 	{

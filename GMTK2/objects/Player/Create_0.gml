@@ -18,5 +18,5 @@ global.HitBoxMult = 3
 #macro Smol .25
 #macro Larg .75
 #macro Norm 1
-speed = 1
+Player.xscale = -1
 direction = 0
