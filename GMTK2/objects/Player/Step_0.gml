@@ -253,8 +253,3 @@ if(keyboard_check_released(ord("Z")))
 	global.DamageMult = 3
 	global.HitBoxMult = 3
 }
-if(global.Health <= 0)
-{
-	instance_destroy()
-	instance_destroy(PlayerHitbox)
-}
