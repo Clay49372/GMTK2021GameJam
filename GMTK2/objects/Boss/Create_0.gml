@@ -5,7 +5,7 @@
 #macro Wind 3
 
 randNum = irandom_range(-5,5)
-Health = 200
+Health = 850
 CurrentForm = Wind
 PreviousForm = CurrentForm
 alarm_set(0,200)
