@@ -1,0 +1,25 @@
+{
+  "kind": 1,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":704.0,"y":0.0,},
+    {"speed":100.0,"x":640.0,"y":96.0,},
+    {"speed":100.0,"x":704.0,"y":160.0,},
+    {"speed":100.0,"x":640.0,"y":224.0,},
+    {"speed":100.0,"x":704.0,"y":288.0,},
+    {"speed":100.0,"x":640.0,"y":352.0,},
+    {"speed":100.0,"x":704.0,"y":416.0,},
+    {"speed":100.0,"x":640.0,"y":448.0,},
+    {"speed":100.0,"x":704.0,"y":544.0,},
+    {"speed":100.0,"x":640.0,"y":608.0,},
+  ],
+  "parent": {
+    "name": "FirePaths",
+    "path": "folders/Paths/FirePaths.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "FirePathMid",
+  "tags": [],
+  "resourceType": "GMPath",
+}

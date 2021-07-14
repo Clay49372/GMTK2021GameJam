@@ -1,3 +1,156 @@
+y=clamp(y, 20, 580)
+x=clamp(x, CameraObj.x-950, CameraObj.x+20)
+// Firing commands
+if(keyboard_check(ord("X")) and CanShoot = 1)
+{
+	 
+	if(global.DamageMult = 1  )
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet1)
+    }
+	if(global.DamageMult = 1.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet125)
+    }
+	if(global.DamageMult = 1.5)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet150)
+    }
+	if(global.DamageMult = 1.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet175)
+    }
+	if(global.DamageMult = 2)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet2)
+    }
+	if(global.DamageMult = 2.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet225)
+    }
+	if(global.DamageMult = 2.50)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet250)
+    }
+	if(global.DamageMult = 2.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet275)
+    }
+	if(global.DamageMult = 3)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet3)
+    }
+	if(global.DamageMult = 3.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet325)
+    }
+	if(global.DamageMult = 3.50)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet350)
+    }
+	if(global.DamageMult = 3.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet375)
+    }
+	if(global.DamageMult = 4)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet4)
+    }
+	if(global.DamageMult = 4.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet425)
+    }
+	if(global.DamageMult = 4.5)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet450)
+    }
+	if(global.DamageMult = 4.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet475)
+    }
+	if(global.DamageMult = 5)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet5)
+    }
+	
+	CanShoot = 0
+	alarm_set(1,ROF / global.ROFMult)
+}
+
+if(keyboard_check(ord("C")) and CanShoot = 1)
+{
+
+	if(global.DamageMult = 1  )
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet1)
+    }
+	if(global.DamageMult = 1.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet125)
+    }
+	if(global.DamageMult = 1.5)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet150)
+    }
+	if(global.DamageMult = 1.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet175)
+    }
+	if(global.DamageMult = 2)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet2)
+    }
+	if(global.DamageMult = 2.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet225)
+    }
+	if(global.DamageMult = 2.50)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet250)
+    }
+	if(global.DamageMult = 2.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet275)
+    }
+	if(global.DamageMult = 3)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet3)
+    }
+	if(global.DamageMult = 3.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet325)
+    }
+	if(global.DamageMult = 3.50)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet350)
+    }
+	if(global.DamageMult = 3.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet375)
+    }
+	if(global.DamageMult = 4)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet4)
+    }
+	if(global.DamageMult = 4.25)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet425)
+    }
+	if(global.DamageMult = 4.5)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet450)
+    }
+	if(global.DamageMult = 4.75)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet475)
+    }
+	if(global.DamageMult = 5)
+    {
+        instance_create_layer(Player.x,Player.y,"Instances",Bullet5)
+    }
+	CanShoot = 0
+	alarm_set(1,ROF / global.ROFMult)
+}
 
 if(keyboard_check(vk_down))
 {
@@ -45,7 +198,7 @@ if(keyboard_check_released(ord("D")))
 		global.HitBoxMult += Larg
 	}
 }
-if(keyboard_check_released(ord("F")))
+if(keyboard_check_released(ord("R")))
 {
 	if(global.HitBoxMult + Norm <= global.MaxMult and global.ROFMult + Smol <= global.MaxMult and global.SpeedMult + Larg <= global.MaxMult)
 	{
@@ -83,7 +236,7 @@ if(keyboard_check_released(ord("Q")))
 		global.SpeedMult += Smol	
 	}
 }
-if(keyboard_check_released(ord("R")))
+if(keyboard_check_released(ord("F")))
 {
 	if(global.HitBoxMult - Norm >= global.MinMult and global.ROFMult - Smol >= global.MinMult and global.SpeedMult - Larg >= global.MinMult)
 	{
